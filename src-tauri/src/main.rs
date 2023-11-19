@@ -1,6 +1,6 @@
 use bevy::{
     prelude::*,
-    window::{PrimaryWindow, WindowCreated, WindowResized},
+    window::{PrimaryWindow, WindowCreated},
     winit::WinitWindows,
 };
 use crossbeam::channel::{unbounded, Receiver};
