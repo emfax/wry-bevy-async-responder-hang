@@ -73,8 +73,6 @@ fn events(rx: Option<Res<EventRx>>) {
         return;
     };
 
-    info!("got a respoonder");
-
     let response = Response::builder()
         .header("Access-Control-Allow-Origin", "*")
         .body(r#"{"kind":"event","name":"test"}"#.to_string().as_bytes().to_vec())
