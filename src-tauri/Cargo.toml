@@ -1,0 +1,13 @@
+[package]
+name = "wry-bevy-async-responder-hang"
+version = "0.0.0"
+description = "A Tauri App"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+
+[dependencies]
+bevy = "0.12"
+crossbeam = "0.8.2"
+wry = { git = "https://github.com/tauri-apps/wry.git", branch = "dev" }
